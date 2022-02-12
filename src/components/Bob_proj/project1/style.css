@@ -1,3 +1,4 @@
+
 *{
      font-family: 'Roboto',sans-serif;
      box-sizing: border-box;
@@ -31,6 +32,13 @@ img{
     padding: 40px;
     line-height: 2rem;
      color: #DEEBF8;
+     background-image: url(./reactjs-icon\ 2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-position-x: 100%;
+     background-position-y: 115%;
+     /* positins the image  */
+
 }
 
 .main--list{

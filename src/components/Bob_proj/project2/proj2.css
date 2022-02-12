@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #23252c;
+  width: 100%;
+  margin-left:600px;
+  /* background-image: url(./per.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y:-34% ;
+  border-top-right-radius: 2; */
+}
+.info {
+  text-align: center;
+  /* can be used to align images and text at the center of the page */
+}
+.img--person {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  width: 320px;
+  margin-left: -5px;
+
+  /* height: 317px; */
+}
+.h1--name {
+  color: #ffffff;
+  /* margin: 21px 70px 0px; */
+  font-size: 25px;
+  line-height: 30px;
+  line-height: 100%;
+  text-align: center;
+}
+.p--name {
+  color: #f3bf99;
+  font-size: 13px;
+  line-height: 15px;
+  line-height: 100%;
+}
+.a--web {
+  font-size: 11px;
+  line-height: 15px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+.btn {
+  margin-top: 16px;
+  padding: 9px 120px;
+  border-radius: 6px;
+  line-height: 1em;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.abt {
+
+  text-align: left;
+  padding: 0px 35px;
+}
+.h1--abt {
+  font-size: 30px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.rect {
+  background-color: #1a1b21;
+  padding-top: 15px;
+  width: 321px;
+  margin-left: -1px;
+  margin-top: -5px;
+  
+  
+}
+.p--abt {
+  font-size: 15px;
+  line-height: 150%;
+  color:#DCDCDC;
+}
+.Tres {
+ 
+  text-align: left;
+  padding: 0px 35px;
+}
+.h1--tres {
+    color: #f5f5f5;
+  font-size: 30px;
+  line-height: 150%;
+}
+.p--tres {
+  font-size: 15px;
+  line-height: 150%;
+  color:#DCDCDC;
+}
+.foot{
+    background-color: #161619;
+    margin-top: -15px;
+    margin-bottom: ;
+   padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:-2px;
+    margin-right: -2px;
+    border-bottom-left-radius: 3px;
+    margin-bottom: 44px;
+}
