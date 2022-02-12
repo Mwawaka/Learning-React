@@ -1,0 +1,49 @@
+*{
+     font-family: 'Roboto',sans-serif;
+     box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #282d35;
+}
+.nav-bar{
+    background-color:#21222a;
+    display: flex;
+    align-items: center;
+    padding: 30px 25px;
+    /* refers to the space above and below the contents of the nav-bar */
+    height: 90px;
+    /* refers to the height of the nav-bar */
+    color: #61dafb;
+}
+.nav--proj{
+    color:#DEEBF8;
+}
+img{
+    margin-right: 10px;
+    /* creates space between the icon and the h3 element */
+}
+.nav--facts{
+    margin-right: auto;
+    /* creates a margin(space) btw the h3 and h4 element this pushes h4 further to the right */
+}
+.main--page{
+    padding: 40px;
+    line-height: 2rem;
+     color: #DEEBF8;
+}
+
+.main--list{
+   margin-top: 40px;
+    list-style: disc;
+padding-block: 10px;
+/* applies padding to top and bottom of block elements */
+
+  
+}
+/* ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number */
+.main--list li::marker{
+    font-size: 1.4rem;
+    /* increases the size of the bullets */
+    color: #61dafb;
+}
