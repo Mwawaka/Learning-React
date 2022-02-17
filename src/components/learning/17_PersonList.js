@@ -1,6 +1,8 @@
+// LESSON 17 LIST RENDERING
+// Using functional component 
 import React from "react";
 
-// we're destructuring the prop in the PersonList parameters 
+// we're destructuring the prop in the PersonList parameters to obtain the property nm which will be use to access the values in the array
 function PersonList({nm}) {
   return (
     <div>
