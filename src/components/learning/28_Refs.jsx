@@ -1,7 +1,11 @@
- // Learning about Refs that makes us to access DOM nodes within react
+// //  Learning about Refs that makes us to access DOM nodes within react
 
-//  REFS ON DOM ELEMENTS
- // code for focusing on an input
+// //  REFS ON DOM ELEMENTS
+
+
+
+
+// //  code for focusing on an input
 
 // import React, { Component } from 'react'
 
@@ -38,6 +42,9 @@
 
 
 // Second use case to fetch the input values
+
+
+
 // import React, { Component } from "react";
 
 // class Refs extends Component {
@@ -80,6 +87,7 @@ class Refs extends Component {
         this.rInp = React.createRef();
     }
     // method that when called will cause the focus to be on the input
+  
     focusInput() {
         this.rInp.current.focus();
     }

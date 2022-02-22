@@ -1,3 +1,5 @@
+// LESSON 21 BASICS OF FORM HANDLING
+
 import React, { Component } from "react";
 
 class Form extends Component {
@@ -10,7 +12,7 @@ class Form extends Component {
         email:''
     };
   }
-// Reacts eevents are named using camelCase 
+// Reacts events/user defined functions are named using camelCase 
   handleText = (event) => {
     // setState() enqueues changes to the component state and tells React that this component and its children need to be re-rendered with the updated state
     this.setState({ username: event.target.value });
@@ -32,7 +34,8 @@ class Form extends Component {
           type="text"
           value={this.state.username}
           onChange={this.handleText}
-            />
+        />
+        {/* when we assign an event handler to onChange event listener the event hanlder is passed as a parameter to the arrow function */}
             <br />
             <label>Login:</label>
             {/* input is not visible due to the attribute value*/}

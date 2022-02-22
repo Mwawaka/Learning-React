@@ -1,3 +1,5 @@
+// LESSON 13 ON EVENT HANDLING
+
 import React from 'react';
 
 function FunctionClick() {

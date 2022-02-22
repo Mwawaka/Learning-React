@@ -1,6 +1,8 @@
+// LESSON 30 Forwarding Refs
+
 // Forwarding is a technique for automatically passing a ref through a parent component to one of  its children
 
-// fuctional component which is the Parent component
+// fuctional component which is the Child component
 import React from "react";
 
 // changing the code to an arrow function so that it can be able to receive the ref created in the class component
@@ -24,13 +26,14 @@ export default Forwarding;
 
 
 // CLEAN FORMAT
-/* import React from 'react'
+import React from 'react'
 
-const Forwarding=React.forwardRef((props,ref) => {
+const Forwarding=React.forwardRef((ref) => {
   return (
     <div>
-      <input type="text" ref={ref}/>
+      <input type="text" ref={ref} />
+      {/* {ref} is the native input element */}
     </div>
   )
 })
-export default Forwarding; */
+export default Forwarding;
